@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@500&display=swap');
+footer{
+    background-color: black;
+    color: white;
+    height: 25px;
+    font-family:'Noto Serif Khojki', serif;
+}
+.logo{
+    display: flex;
+    width: 35px;
+    align-items: center;
+}
+nav{
+    display: flex;
+}
+header{
+    background-color: black;
+    color: white;
+    font-family:'Noto Serif Khojki', serif;
+}
+nav ul{
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
